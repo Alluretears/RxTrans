@@ -1,0 +1,30 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/primary</item>
+    <item name="colorPrimaryDark">@color/primary_dark</item>
+    <item name="colorAccent">@color/accent</item>
+  </style>
+
+  <style name="AppTheme.ProgressBar.Small" parent="Widget.AppCompat.ProgressBar">
+    <item name="android:maxWidth">16dp</item>
+    <item name="android:maxHeight">16dp</item>
+    <item name="android:minHeight">16dp</item>
+    <item name="android:minWidth">16dp</item>
+  </style>
+
+  <style name="AppTheme.Button" parent="ThemeOverlay.AppCompat">
+    <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+  </style>
+
+  <style name="AppTheme.Button.YouDao" parent="AppTheme.Button">
+    <item name="colorAccent">@color/youdao</item>
+  </style>
+
+  <style name="AppTheme.Button.BaiDu" parent="AppTheme.Button">
+    <item name="colorAccent">@color/baidu</item>
+  </style>
+
+</resources>
